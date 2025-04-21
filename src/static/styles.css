@@ -74,18 +74,21 @@ section h3 {
   margin: 8px 0 0 16px;
   padding: 0;
   list-style-type: disc;
+  padding-left: 20px; /* Add some padding for better alignment */
 }
 
 .activity-card ul li {
   margin-bottom: 4px;
   font-size: 16px; /* Match the font size of the rest of the text */
   color: #333; /* Match the body text color */
+  line-height: 1.5; /* Improve readability */
 }
 
 .activity-card div {
   margin-top: 12px;
   font-size: 16px; /* Match the font size of the rest of the text */
   color: #333;
+  font-weight: bold; /* Highlight the participant title */
 }
 
 .activity-card p {
