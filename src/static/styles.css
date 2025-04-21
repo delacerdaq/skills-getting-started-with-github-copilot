@@ -58,16 +58,37 @@ section h3 {
 }
 
 .activity-card {
-  margin-bottom: 15px;
-  padding: 15px;
+  margin-bottom: 16px;
+  padding: 16px;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 8px;
   background-color: #f9f9f9;
 }
 
 .activity-card h4 {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: #0066cc;
+}
+
+.activity-card ul {
+  margin: 8px 0 0 16px;
+  padding: 0;
+  list-style-type: disc;
+  padding-left: 20px; /* Add some padding for better alignment */
+}
+
+.activity-card ul li {
+  margin-bottom: 4px;
+  font-size: 16px; /* Match the font size of the rest of the text */
+  color: #333; /* Match the body text color */
+  line-height: 1.5; /* Improve readability */
+}
+
+.activity-card div {
+  margin-top: 12px;
+  font-size: 16px; /* Match the font size of the rest of the text */
+  color: #333;
+  font-weight: bold; /* Highlight the participant title */
 }
 
 .activity-card p {
